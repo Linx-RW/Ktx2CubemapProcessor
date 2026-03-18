@@ -1,5 +1,7 @@
 Cubemap processor aimed at converting textures to optimized .ktx2 formats for Kitten Space Agency.
 
+## Note - You MUST have installed the Khronos KTX Tools AND have added them to Path, or this will not work: https://github.com/KhronosGroup/KTX-Software/releases
+
 ## Import Options
 
 ### Open (Equirectangular)
