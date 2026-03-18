@@ -1,6 +1,6 @@
 Cubemap processor aimed at converting textures to optimized .ktx2 formats for Kitten Space Agency.
 
-## Note - You MUST have installed the Khronos KTX Tools AND have added them to Path, or this will not work: https://github.com/KhronosGroup/KTX-Software/releases
+## Note - You MUST have installed the Khronos KTX Tools AND have added it to Path, or this will not work: https://github.com/KhronosGroup/KTX-Software/releases
 
 ## Import Options
 
@@ -39,4 +39,4 @@ Exports as uncompressed R8G8B8A8, mipmaps, linear.
 The orientation to transform the cubemap into when exporting. Options are OpenGL or KSA CCF.
 
 ### Destination Resolution (Currently unused)
-The resolution for each exported cubemap face.
+The resolution for each exported cubemap face. Currently unused, and will export based on whatever the import resolution was. For equirectangular textures, this will be 1/4 the height.
