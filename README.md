@@ -40,3 +40,10 @@ The orientation to transform the cubemap into when exporting. Options are OpenGL
 
 ### Destination Resolution (Currently unused)
 The resolution for each exported cubemap face. Currently unused, and will export based on whatever the import resolution was. For equirectangular textures, this will be 1/4 the height.
+
+## Credit
+This project depends on ImageSharp (Six Labors)
+licensed under the Apache License 2.0.
+
+Copyright (c) Six Labors
+https://github.com/SixLabors/ImageSharp
